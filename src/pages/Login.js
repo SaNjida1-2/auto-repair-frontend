@@ -5,7 +5,7 @@ import './Login.css';
 const isLocal = window.location.hostname === "localhost";
 const API_URL = isLocal 
     ? "http://localhost:5000/api" 
-    : "https://backend-z33s.onrender.com";
+    : "https://backend-z33s.onrender.com/api";
 
 const Login = () => {
     const [email, setEmail] = useState('');
