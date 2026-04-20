@@ -1,0 +1,110 @@
+.login-page {
+    height: 100vh;
+    background: url('https://i.pinimg.com/1200x/45/b2/77/45b277214a9db1d1be92d466db55ab87.jpg') no-repeat center center/cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-overlay {
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-card {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 50px 40px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 420px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    text-align: center;
+}
+
+.login-header h2 {
+    font-size: 2rem;
+    margin-bottom: 5px;
+    color: #fcfafa;
+}
+
+.login-header p {
+    color: #f5efef;
+    margin-bottom: 30px;
+    font-size: 0.9rem;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 1rem;
+    background: #f9f9f9;
+    box-sizing: border-box;
+}
+
+.login-submit-btn {
+    width: 100%;
+    padding: 14px;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.login-submit-btn:hover {
+    background-color: #e63939;
+}
+
+.login-footer {
+    margin-top: 30px;
+}
+
+.login-footer p {
+    color: #ffffff;
+    font-size: 0.9rem;
+}
+
+.login-footer a {
+    color: #ff4d4d;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.divider {
+    margin: 20px 0;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+}
+
+.divider span {
+    background: #fff;
+    padding: 0 10px;
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 0.8rem;
+    color: #090000;
+}
+
+.admin-btn {
+    display: inline-block;
+    margin-top: 10px;
+    color: #777;
+    font-size: 0.85rem;
+    text-decoration: none;
+}

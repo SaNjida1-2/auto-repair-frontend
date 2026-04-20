@@ -1,0 +1,95 @@
+.add-testimonial-page {
+    height: 100vh;
+    background: url('https://i.pinimg.com/1200x/4d/b2/e2/4db2e2e9e0d5af8e3a368d753acc3bdb.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial-overlay {
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.testimonial-glass-card {
+    background: rgba(255, 255, 255, 0.02);
+    backdrop-filter: blur(25px);
+    -webkit-backdrop-filter: blur(25px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    width: 100%;
+    max-width: 450px;
+    border-radius: 15px;
+    color: white;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.form-header h2 { font-size: 1.8rem; color: #ff4d4d; margin-bottom: 5px; }
+.form-header p { color: #ccc; margin-bottom: 25px; font-size: 0.9rem; }
+
+.input-group {
+    text-align: left;
+    margin-bottom: 18px;
+}
+
+.input-group label {
+    display: block;
+    font-size: 0.85rem;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.input-group input, .input-group select, .input-group textarea {
+    width: 100%;
+    padding: 12px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 6px;
+    color: white;
+    font-family: inherit;
+    outline: none;
+}
+
+.input-group input::placeholder, 
+.input-group textarea::placeholder {
+    color: rgba(246, 241, 241, 0.915);
+    font-size: 0.9rem;
+}
+
+.input-group select option { background: #333; }
+
+.submit-review-btn {
+    width: 100%;
+    padding: 14px;
+    background: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 10px;
+}
+
+.submit-review-btn:hover {
+    background: #e63939;
+    transform: translateY(-2px);
+}
+
+.back-home-link {
+    background: none;
+    border: none;
+    color: #fefbfb;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 0.85rem;
+}
+
+.back-home-link:hover { color: #fff; text-decoration: underline; }
